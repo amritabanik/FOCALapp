@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69072F5F1C92411B000D707E /* Digital System.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69072F5E1C92411B000D707E /* Digital System.ttf */; };
 		6912E6501C8BA13100BA6DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E64F1C8BA13100BA6DB7 /* AppDelegate.swift */; };
-		6912E6521C8BA13100BA6DB7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E6511C8BA13100BA6DB7 /* FirstViewController.swift */; };
-		6912E6541C8BA13100BA6DB7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E6531C8BA13100BA6DB7 /* SecondViewController.swift */; };
+		6912E6521C8BA13100BA6DB7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E6511C8BA13100BA6DB7 /* HomeViewController.swift */; };
+		6912E6541C8BA13100BA6DB7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E6531C8BA13100BA6DB7 /* AboutViewController.swift */; };
 		6912E6571C8BA13100BA6DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6912E6551C8BA13100BA6DB7 /* Main.storyboard */; };
 		6912E6591C8BA13100BA6DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6912E6581C8BA13100BA6DB7 /* Assets.xcassets */; };
 		6912E65C1C8BA13100BA6DB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6912E65A1C8BA13100BA6DB7 /* LaunchScreen.storyboard */; };
 		6912E6671C8BA13100BA6DB7 /* FocalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E6661C8BA13100BA6DB7 /* FocalAppTests.swift */; };
 		6912E6721C8BA13100BA6DB7 /* FocalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E6711C8BA13100BA6DB7 /* FocalAppUITests.swift */; };
+		6912E6881C8BF45D00BA6DB7 /* GarmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E6851C8BF45D00BA6DB7 /* GarmentsViewController.swift */; };
+		6912E68A1C8BF45D00BA6DB7 /* DesignersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E6871C8BF45D00BA6DB7 /* DesignersViewController.swift */; };
+		6912E68C1C8BF65300BA6DB7 /* hexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6912E68B1C8BF65300BA6DB7 /* hexColor.swift */; };
+		69AC8A6A1C9887740077CE80 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AC8A681C9887740077CE80 /* UIImage+animatedGIF.m */; };
+		69BF84B71C8D0A46000603F0 /* DIGITALDREAMNARROW.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69BF84B61C8D0A46000603F0 /* DIGITALDREAMNARROW.ttf */; };
+		69C33E381C9A1DCD002E2672 /* scannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C33E371C9A1DCD002E2672 /* scannerViewController.swift */; };
+		69C33E401C9A6E35002E2672 /* GarmentsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C33E3F1C9A6E35002E2672 /* GarmentsCollectionViewController.swift */; };
+		69C33E441C9A7797002E2672 /* GarmentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C33E431C9A7797002E2672 /* GarmentsCollectionViewCell.swift */; };
+		CD1E17941D4A9D2F422CA7CB /* Pods_FocalApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E56C41F0D3D71DC02DC469 /* Pods_FocalApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6912E64C1C8BA13100BA6DB7 /* FocalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3F16577BE49624F67AEB79 /* Pods-FocalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FocalApp/Pods-FocalApp.debug.xcconfig"; sourceTree = "<group>"; };
+		53E56C41F0D3D71DC02DC469 /* Pods_FocalApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FocalApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69072F5E1C92411B000D707E /* Digital System.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Digital System.ttf"; sourceTree = "<group>"; };
+		6912E64C1C8BA13100BA6DB7 /* FOCAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOCAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6912E64F1C8BA13100BA6DB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6912E6511C8BA13100BA6DB7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		6912E6531C8BA13100BA6DB7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6912E6511C8BA13100BA6DB7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6912E6531C8BA13100BA6DB7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		6912E6561C8BA13100BA6DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6912E6581C8BA13100BA6DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6912E65B1C8BA13100BA6DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,17 @@
 		6912E66D1C8BA13100BA6DB7 /* FocalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6912E6711C8BA13100BA6DB7 /* FocalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocalAppUITests.swift; sourceTree = "<group>"; };
 		6912E6731C8BA13100BA6DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6912E6851C8BF45D00BA6DB7 /* GarmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarmentsViewController.swift; sourceTree = "<group>"; };
+		6912E6871C8BF45D00BA6DB7 /* DesignersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignersViewController.swift; sourceTree = "<group>"; };
+		6912E68B1C8BF65300BA6DB7 /* hexColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hexColor.swift; sourceTree = "<group>"; };
+		69AC8A671C9887740077CE80 /* FocalApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FocalApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		69AC8A681C9887740077CE80 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		69AC8A691C9887740077CE80 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		69BF84B61C8D0A46000603F0 /* DIGITALDREAMNARROW.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIGITALDREAMNARROW.ttf; sourceTree = "<group>"; };
+		69C33E371C9A1DCD002E2672 /* scannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scannerViewController.swift; sourceTree = "<group>"; };
+		69C33E3F1C9A6E35002E2672 /* GarmentsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarmentsCollectionViewController.swift; sourceTree = "<group>"; };
+		69C33E431C9A7797002E2672 /* GarmentsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarmentsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E34015377D243B678D53C78A /* Pods-FocalApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocalApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FocalApp/Pods-FocalApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1E17941D4A9D2F422CA7CB /* Pods_FocalApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FB251F47C9AB1D88318AE67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E56C41F0D3D71DC02DC469 /* Pods_FocalApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6912E6431C8BA13100BA6DB7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,13 +116,15 @@
 				6912E6651C8BA13100BA6DB7 /* FocalAppTests */,
 				6912E6701C8BA13100BA6DB7 /* FocalAppUITests */,
 				6912E64D1C8BA13100BA6DB7 /* Products */,
+				E6F66D3C21C5EECAC3B1BBD6 /* Pods */,
+				2FB251F47C9AB1D88318AE67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		6912E64D1C8BA13100BA6DB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6912E64C1C8BA13100BA6DB7 /* FocalApp.app */,
+				6912E64C1C8BA13100BA6DB7 /* FOCAL.app */,
 				6912E6621C8BA13100BA6DB7 /* FocalAppTests.xctest */,
 				6912E66D1C8BA13100BA6DB7 /* FocalAppUITests.xctest */,
 			);
@@ -99,13 +134,24 @@
 		6912E64E1C8BA13100BA6DB7 /* FocalApp */ = {
 			isa = PBXGroup;
 			children = (
+				69C33E3F1C9A6E35002E2672 /* GarmentsCollectionViewController.swift */,
+				69AC8A681C9887740077CE80 /* UIImage+animatedGIF.m */,
+				69AC8A691C9887740077CE80 /* UIImage+animatedGIF.h */,
+				6912E6511C8BA13100BA6DB7 /* HomeViewController.swift */,
+				6912E6531C8BA13100BA6DB7 /* AboutViewController.swift */,
+				6912E6871C8BF45D00BA6DB7 /* DesignersViewController.swift */,
+				6912E6851C8BF45D00BA6DB7 /* GarmentsViewController.swift */,
 				6912E64F1C8BA13100BA6DB7 /* AppDelegate.swift */,
-				6912E6511C8BA13100BA6DB7 /* FirstViewController.swift */,
-				6912E6531C8BA13100BA6DB7 /* SecondViewController.swift */,
 				6912E6551C8BA13100BA6DB7 /* Main.storyboard */,
 				6912E6581C8BA13100BA6DB7 /* Assets.xcassets */,
 				6912E65A1C8BA13100BA6DB7 /* LaunchScreen.storyboard */,
 				6912E65D1C8BA13100BA6DB7 /* Info.plist */,
+				69072F5E1C92411B000D707E /* Digital System.ttf */,
+				69BF84B61C8D0A46000603F0 /* DIGITALDREAMNARROW.ttf */,
+				6912E68B1C8BF65300BA6DB7 /* hexColor.swift */,
+				69AC8A671C9887740077CE80 /* FocalApp-Bridging-Header.h */,
+				69C33E371C9A1DCD002E2672 /* scannerViewController.swift */,
+				69C33E431C9A7797002E2672 /* GarmentsCollectionViewCell.swift */,
 			);
 			path = FocalApp;
 			sourceTree = "<group>";
@@ -128,6 +174,15 @@
 			path = FocalAppUITests;
 			sourceTree = "<group>";
 		};
+		E6F66D3C21C5EECAC3B1BBD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F3F16577BE49624F67AEB79 /* Pods-FocalApp.debug.xcconfig */,
+				E34015377D243B678D53C78A /* Pods-FocalApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6912E6761C8BA13100BA6DB7 /* Build configuration list for PBXNativeTarget "FocalApp" */;
 			buildPhases = (
+				9F43A43D92BDE3593BF3DCA6 /* Check Pods Manifest.lock */,
 				6912E6481C8BA13100BA6DB7 /* Sources */,
 				6912E6491C8BA13100BA6DB7 /* Frameworks */,
 				6912E64A1C8BA13100BA6DB7 /* Resources */,
+				0A71CBE0220203BEA3F64EE8 /* Embed Pods Frameworks */,
+				49AA0C204AB9A16450B51FC9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,7 +203,7 @@
 			);
 			name = FocalApp;
 			productName = FocalApp;
-			productReference = 6912E64C1C8BA13100BA6DB7 /* FocalApp.app */;
+			productReference = 6912E64C1C8BA13100BA6DB7 /* FOCAL.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6912E6611C8BA13100BA6DB7 /* FocalAppTests */ = {
@@ -196,6 +254,7 @@
 				TargetAttributes = {
 					6912E64B1C8BA13100BA6DB7 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5H54BM828W;
 					};
 					6912E6611C8BA13100BA6DB7 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -234,6 +293,8 @@
 			files = (
 				6912E65C1C8BA13100BA6DB7 /* LaunchScreen.storyboard in Resources */,
 				6912E6591C8BA13100BA6DB7 /* Assets.xcassets in Resources */,
+				69BF84B71C8D0A46000603F0 /* DIGITALDREAMNARROW.ttf in Resources */,
+				69072F5F1C92411B000D707E /* Digital System.ttf in Resources */,
 				6912E6571C8BA13100BA6DB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +315,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A71CBE0220203BEA3F64EE8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocalApp/Pods-FocalApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49AA0C204AB9A16450B51FC9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocalApp/Pods-FocalApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F43A43D92BDE3593BF3DCA6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6912E6481C8BA13100BA6DB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6912E6541C8BA13100BA6DB7 /* SecondViewController.swift in Sources */,
+				6912E6541C8BA13100BA6DB7 /* AboutViewController.swift in Sources */,
+				69C33E401C9A6E35002E2672 /* GarmentsCollectionViewController.swift in Sources */,
+				6912E68C1C8BF65300BA6DB7 /* hexColor.swift in Sources */,
 				6912E6501C8BA13100BA6DB7 /* AppDelegate.swift in Sources */,
-				6912E6521C8BA13100BA6DB7 /* FirstViewController.swift in Sources */,
+				6912E6521C8BA13100BA6DB7 /* HomeViewController.swift in Sources */,
+				6912E6881C8BF45D00BA6DB7 /* GarmentsViewController.swift in Sources */,
+				6912E68A1C8BF45D00BA6DB7 /* DesignersViewController.swift in Sources */,
+				69AC8A6A1C9887740077CE80 /* UIImage+animatedGIF.m in Sources */,
+				69C33E441C9A7797002E2672 /* GarmentsCollectionViewCell.swift in Sources */,
+				69C33E381C9A1DCD002E2672 /* scannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +452,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -380,6 +497,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -399,23 +517,38 @@
 		};
 		6912E6771C8BA13100BA6DB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F3F16577BE49624F67AEB79 /* Pods-FocalApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = FocalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = selin.FocalApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FOCAL;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FocalApp/FocalApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		6912E6781C8BA13100BA6DB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34015377D243B678D53C78A /* Pods-FocalApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = FocalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = selin.FocalApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FOCAL;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FocalApp/FocalApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -486,6 +619,7 @@
 				6912E6781C8BA13100BA6DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6912E6791C8BA13100BA6DB7 /* Build configuration list for PBXNativeTarget "FocalAppTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +628,7 @@
 				6912E67B1C8BA13100BA6DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6912E67C1C8BA13100BA6DB7 /* Build configuration list for PBXNativeTarget "FocalAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +637,7 @@
 				6912E67E1C8BA13100BA6DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
